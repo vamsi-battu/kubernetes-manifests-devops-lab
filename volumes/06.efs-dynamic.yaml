@@ -24,7 +24,7 @@ spec:
   - name: nginx
     image: nginx
     volumeMounts: 
-    - name: expense-efs
+    - name: efs-dynamic
       mountPath: /usr/share/nginx/html
   volumes:
   - name: efs-dynamic
